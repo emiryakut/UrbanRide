@@ -1,0 +1,9 @@
+# Hassas bağlantı veya ayar dosyaları
+Includes/db.php
+Includes/config.php
+
+# Sistem ve editör dosyaları
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
