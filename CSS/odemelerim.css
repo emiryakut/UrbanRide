@@ -1,0 +1,127 @@
+body{
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    background:#f4f7fb;
+    margin:0;
+    padding:20px;
+    color:#2d3436;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+.finance-card{
+    background:white;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 4px 15px rgba(0,0,0,.06);
+    margin-bottom:20px;
+    transition:.3s;
+}
+
+.finance-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1.2fr .8fr;
+    gap:25px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+td{
+    padding:14px 10px;
+    border-bottom:1px solid #eef1f5;
+}
+
+tr:hover{
+    background:#f8fafc;
+}
+
+.btn-cek{
+    width:100%;
+    padding:13px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    margin-top:15px;
+    transition:.3s;
+}
+
+.btn-cek:hover{
+    background:#1d4ed8;
+}
+
+.badge-odeme,
+.badge-kazanc,
+.badge-gider{
+    display:inline-block;
+    padding:4px 12px;   
+    border-radius:20px;
+    font-size:.85rem;
+    font-weight:600;
+    width:auto;
+}
+
+.badge-odeme{
+    background:#eaf4ff;
+    color:#3498db;
+}
+
+.badge-kazanc{
+    background:#eafaf1;
+    color:#2ecc71;
+}
+
+.badge-gider{
+    background:#fdeeee;
+    color:#e74c3c;
+}
+
+.header-flex{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+    gap:15px;
+}
+
+.back-link{
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:600;
+    transition:.3s;
+}
+
+.back-link:hover{
+    opacity:.7;
+}
+
+@media(max-width:850px){
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .balance-sidebar{
+        order:-1;
+    }
+
+    body{
+        padding:12px;
+    }
+
+    .finance-card{
+        padding:18px;
+    }
+}

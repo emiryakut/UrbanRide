@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #2563eb, #9333ea);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    text-align: center;
+}
+
+.login-header .logo {
+    text-decoration: none;
+    color: #2563eb;
+    font-size: 24px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.login-header h2 {
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    color: #1e293b;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper i {
+    position: absolute;
+    left: 15px;
+    color: #94a3b8;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 12px 12px 12px 45px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-wrapper input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 25px;
+    color: #64748b;
+}
+
+.form-options a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.btn-login-submit {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(90deg, #2563eb, #9333ea);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-login-submit:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.login-footer {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.login-footer a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
